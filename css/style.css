@@ -1,0 +1,111 @@
+body {
+    background: gainsboro !important;
+}
+
+.navbar {
+    background: gainsboro;
+    height: 130px;
+    
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand{
+    color: black !important;
+}
+
+.parrafo h1{
+    font-size: 90px;
+    color: darkblue;
+}
+
+.button-one {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button-two {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button-theree {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button-for {
+    margin-right: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-five {
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.publication {
+    width: 100%;
+}
+
+section img {
+    height: 300px;
+    width: 100%;
+}
+
+section p {
+    color: white;
+}
+
+.card-text {
+    color: black;
+}
+
+footer {
+    background: gray;
+    color: white;
+}
+
+.sticky-top img {
+    height: 200px;
+    width: 200px;
+}
+
+@media (max-width: 494px) {
+    .action{
+        
+    }
+}
