@@ -90,6 +90,22 @@ section p {
     color: white;
 }
 
+.category-title{
+    color: white;
+    background: black;
+}
+
+.category-economy {
+    height: 300px;
+    background: brown;
+    color: white;
+}
+
+#dollars {
+    width: 100%;
+    height: 100%;
+}
+
 .card-text {
     color: black;
 }
@@ -107,5 +123,15 @@ footer {
 @media (max-width: 494px) {
     .parrafo h1 {
         font-size: 20px;
+    }
+    
+    .category-economy {
+        height: 150px;
+        
+    }
+    
+    #dollars {
+        width: 100%;
+        height: 100%;
     }
 }
