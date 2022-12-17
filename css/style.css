@@ -30,6 +30,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
+    width: 150px;
 }
 
 .button-two {
@@ -41,6 +42,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
+    width: 150px;
 }
 
 .button-theree {
@@ -52,6 +54,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
+    width: 150px;
 }
 
 .button-for {
@@ -63,6 +66,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 150px;
 }
 
 .button-five {
@@ -74,6 +78,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
+    width: 150px;
 }
 
 
@@ -124,10 +129,29 @@ footer {
     .parrafo h1 {
         font-size: 20px;
     }
+
+    #img-card-one {
+        height: 200px;
+    }
+
+    #img-card-two {
+        height: 200px;
+    }
+
+    #img-presentation {
+        height: 200px;
+    }
+
+    #img-presentation-two {
+        height: 200px;
+    }
+
+    #img-presentation-three {
+        height: 200px;
+    }
     
     .category-economy {
         height: 150px;
-        
     }
     
     #dollars {
