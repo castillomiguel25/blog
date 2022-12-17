@@ -30,7 +30,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 .button-two {
@@ -42,7 +42,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 .button-theree {
@@ -54,7 +54,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 .button-for {
@@ -66,7 +66,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 150px;
+    width: 200px;
 }
 
 .button-five {
@@ -78,7 +78,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 
@@ -102,7 +102,7 @@ section p {
 
 .category-economy {
     height: 300px;
-    background: brown;
+    background: #114466;
     color: white;
 }
 
@@ -116,7 +116,7 @@ section p {
 }
 
 footer {
-    background: gray;
+    background: #114466;
     color: white;
 }
 
