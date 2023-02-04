@@ -2,13 +2,13 @@ body {
     background: gainsboro !important;
 }
 
-#logo{
+#logo {
     border-radius: 100%;
     width: 120px;
     height: 120px;
 }
 
-.prueba h1{
+.prueba h1 {
     width: 200px;
     color: red;
     border: 1px solid;
@@ -24,11 +24,11 @@ body {
     color: white;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: black !important;
 }
 
-.parrafo h1{
+.parrafo h1 {
     font-size: 90px;
     color: darkblue;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .button-five {
-    background-color: #FFC7C7;
+    background-color: rebeccapurple;
     border: none;
     color: white;
     padding: 35px 32px;
@@ -109,10 +109,10 @@ section {
 }
 
 section p {
-    color: white;
+    color: black;
 }
 
-.category-title{
+.category-title {
     color: white;
     background: black;
 }
@@ -154,12 +154,14 @@ footer {
     font-family: "calibri";
     color: white;
     box-shadow: 7px 13px 13px #f4f4f4;
-  }
-  .form-register h4 {
+}
+
+.form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
-  }
-  .controls {
+}
+
+.controls {
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -169,22 +171,26 @@ footer {
     font-family: "calibri";
     font-size: 18px;
     color: white;
-  }
-  .form-register p {
+}
+
+.form-register p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
-  }
-  .form-register a {
+}
+
+.form-register a {
     color: white;
     text-decoration: none;
-  }
-  .form-register a:hover {
+}
+
+.form-register a:hover {
     color: white;
     text-decoration: underline;
-  }
-  .form-register .botons {
+}
+
+.form-register .botons {
     width: 100%;
     background: rebeccapurple;
     border: none;
@@ -192,21 +198,45 @@ footer {
     color: white;
     margin: 16px 0;
     font-size: 16px;
-  }
-  #form {
+}
+
+#form {
     padding: 20px;
     border: 2px solid white;
     margin: 2px;
     transform: translate(50%);
     height: 350px;
-  }
+}
+
+#short {
+    display: none;
+}
+
+.title-economy{
+   padding: 2%;
+   background: #6EBFB5; 
+   color: #f4f4f4;
+   border-radius: 50%;
+}
+
+.title-economy-two{
+    padding: 2%;
+    background: #114466; 
+    color: #f4f4f4;
+    border-radius: 50%;
+ }
+
+.borde {
+    padding: 15px;
+    border: 3px solid #114466;
+}
 
 @media (max-width: 494px) {
     .parrafo h1 {
         font-size: 20px;
     }
 
-    .title-carousel{
+    .title-carousel {
         font-size: 14px;
     }
 
@@ -229,11 +259,11 @@ footer {
     #img-presentation-three {
         height: 200px;
     }
-    
+
     .category-economy {
         height: 150px;
     }
-    
+
     #dollars {
         width: 100%;
         height: 100%;
