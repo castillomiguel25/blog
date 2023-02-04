@@ -16,3 +16,22 @@ function mostrarOscultar () {
         document.getElementById('button').value = 'Mostrar'
     }
 }
+
+ function ocultars () {
+     document.getElementById('shorts').style.display = 'none'
+ }
+
+ function mostrars () {
+     document.getElementById('shorts').style.display = 'block'
+ }
+
+ function mostrarOscultars () {
+     if (shorts.style.display === 'none') {
+         mostrars();
+         document.getElementById('buttons').value = 'Ocultar'
+     }
+     else{
+         ocultars();
+         document.getElementById('buttons').value = 'Mostrar'
+     }
+ }

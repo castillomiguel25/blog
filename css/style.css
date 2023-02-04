@@ -212,6 +212,10 @@ footer {
     display: none;
 }
 
+#shorts {
+    display: none;
+}
+
 .title-economy{
    padding: 2%;
    background: #6EBFB5; 
@@ -227,6 +231,11 @@ footer {
  }
 
 .borde {
+    padding: 15px;
+    border: 3px solid #6EBFB5;
+}
+
+.borde-economy {
     padding: 15px;
     border: 3px solid #114466;
 }
