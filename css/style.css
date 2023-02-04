@@ -58,7 +58,7 @@ body {
 }
 
 .button-theree {
-    background-color: orange;
+    background-color: #6EBFB5;
     border: none;
     color: white;
     padding: 35px 32px;
@@ -71,7 +71,7 @@ body {
 
 .button-for {
     margin-right: 10px;
-    background-color: blue;
+    background-color: #24A19C;
     border: none;
     color: white;
     padding: 35px 32px;
@@ -82,7 +82,7 @@ body {
 }
 
 .button-five {
-    background-color: hotpink;
+    background-color: #FFC7C7;
     border: none;
     color: white;
     padding: 35px 32px;
