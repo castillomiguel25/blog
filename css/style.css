@@ -10,6 +10,8 @@ body {
 
 .nav-item a{
     color: white !important;
+    background:#114466 !important;
+    width: 100%;
 }
 
 .navbar-toggler {
