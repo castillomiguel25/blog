@@ -4,8 +4,21 @@ body {
 
 #logo {
     border-radius: 100%;
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
+}
+
+.nav-item a{
+    color: white !important;
+}
+
+.navbar-toggler {
+    color: white !important;
+}
+
+.new-img{
+width: 1000px;
+height: 200px;
 }
 
 .carousel-item img{
@@ -228,28 +241,24 @@ footer {
    padding: 2%;
    background: #6EBFB5; 
    color: #f4f4f4;
-   border-radius: 50%;
 }
 
 .title-economy-two{
     padding: 2%;
     background: #114466; 
     color: #f4f4f4;
-    border-radius: 50%;
 }
 
 .title-economy-three{
     padding: 2%;
     background: black; 
     color: #f4f4f4;
-    border-radius: 50%;
 }
 
 .title-economy-internacional{
     padding: 2%;
     background: white; 
     color: black;
-    border-radius: 50%;
 }
 
 .borde {
@@ -273,6 +282,10 @@ footer {
 }
 
 @media (max-width: 494px) {
+    .new-img{
+        width: 300px;
+        height: 200px;
+        }
     .parrafo h1 {
         font-size: 20px;
     }
