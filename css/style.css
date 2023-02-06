@@ -8,6 +8,10 @@ body {
     height: 120px;
 }
 
+.carousel-item img{
+    height: 300px;
+}
+
 .prueba h1 {
     width: 200px;
     color: red;

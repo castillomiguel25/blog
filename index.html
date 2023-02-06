@@ -13,67 +13,55 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img id="logo" src="img/logo.png" alt="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="index.html">
-                <button class="button-five">
-                  Inicio
-                </button>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="paso-1.html">
-                <button class="button-one">
-                  Editorial
-                </button>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="paso-2.html">
-                <button class="button-two">
-                  Noticias
-                </button>
-              </a>
-
-            </li>
-            <li class="nav-item">
-              <a href="paso-3.html">
-                <button class="button-theree">
-                  Artículos
-                </button>
-              </a>
-
-            </li>
-            <li class="nav-item">
-              <a href="paso-4.html">
-                <button class="button-for">
-                  Información
-                </button>
-              </a>
-            </li>
-          </ul>
-          <!-- <span class="navbar-text">
-            
-          </span> -->
-        </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-nav ml-auto" id="navbar-controls">
+                  <a class="nav-item nav-link" href="#">Inicio</a>
+                  <a class="nav-item nav-link" href="paso-1.html">Editorial</a>
+                  <a class="nav-item nav-link" href="paso-2.html">Noticias</a>
+                  <a class="nav-item nav-link" href="paso-3.html">Artículos</a>
+                  <a class="nav-item nav-link" href="paso-4.html">Información</a>
+              </div>
+          </div>
       </div>
-    </nav>
+  </nav>
+
+  <!-- Hero -->
+  <div id="hero-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="d-block w-100 H-30" src="./img/destinos-naturaleza-copia.jpg" alt="First slide">
+          </div>
+      </div>
+      <div class="capa-hero">
+          <div class="container">
+              <div class="row align-items-center">
+                  <!-- <div class="col-md-6 offset-md-6 text-center text-md-right">
+                      <h1>Platzi Conf Hawaii</h1>
+                      <p class="d-none d-md-block">Platzi Conf llega por pimera vez a Hawaii! Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que est�n creando el futuro de internet. Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                      <a href="#seccion-convierte-orador" class="btn btn-outline-light">Quiero ser orador</a>
+                      <button class="btn btn-platzi" data-toggle="modal" data-target="#modal">Comprar tickets</button>
+                  </div> -->
+              </div>
+          </div>
+      </div>
+  </div>
+
   </header>
 
   <div class="mt-3 parrafo">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col text-center">
           <h1>Revista De Economia</h1>
         </div>
       </div>
@@ -467,7 +455,7 @@
               target="_blank">
               <input class="controls" type="email" name="correo" id="correo" placeholder="Enter your email" />
               <input class="controls" type="textarea" name="correo" id="correo" placeholder="write us a message" />
-              <input class="botons" type="submit" value="send Message" />
+              <input class="botons" type="submit" value="ENVIAR" />
             </form>
           </div>
         </div>
