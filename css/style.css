@@ -82,7 +82,7 @@ body {
 }
 
 .button-five {
-    background-color: rebeccapurple;
+    background-color: black;
     border: none;
     color: white;
     padding: 35px 32px;
@@ -216,6 +216,10 @@ footer {
     display: none;
 }
 
+#three {
+    display: none;
+}
+
 .title-economy{
    padding: 2%;
    background: #6EBFB5; 
@@ -228,7 +232,21 @@ footer {
     background: #114466; 
     color: #f4f4f4;
     border-radius: 50%;
- }
+}
+
+.title-economy-three{
+    padding: 2%;
+    background: black; 
+    color: #f4f4f4;
+    border-radius: 50%;
+}
+
+.title-economy-internacional{
+    padding: 2%;
+    background: white; 
+    color: black;
+    border-radius: 50%;
+}
 
 .borde {
     padding: 15px;
@@ -238,6 +256,16 @@ footer {
 .borde-economy {
     padding: 15px;
     border: 3px solid #114466;
+}
+
+.borde-economy-politico {
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.borde-economy-internacional {
+    padding: 15px;
+    border: 3px solid white;
 }
 
 @media (max-width: 494px) {

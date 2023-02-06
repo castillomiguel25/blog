@@ -17,6 +17,8 @@ function mostrarOscultar () {
     }
 }
 
+
+
  function ocultars () {
      document.getElementById('shorts').style.display = 'none'
  }
@@ -35,3 +37,21 @@ function mostrarOscultar () {
          document.getElementById('buttons').value = 'Mostrar'
      }
  }
+
+function hide () {
+    document.getElementById('three').style.display = 'block'
+}
+function show () {
+    document.getElementById('three').style.display = 'none'
+}
+
+function showHide () {
+    if (three.style.display === 'none') {
+        hide();
+        document.getElementById('but').value = 'Ocultar'
+    }
+    else{
+        show();
+        document.getElementById('but').value = 'Mostrar'
+    }
+}
