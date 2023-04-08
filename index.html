@@ -18,7 +18,8 @@
         <a class="navbar-brand" href="#">
           <img id="logo" src="img/logo.png" alt="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,7 +52,7 @@
       </div>
     </div>
   </div>
-  
+
   <section>
     <br>
     <div class="container ">
@@ -81,7 +82,10 @@
               justa
               distribución de las riquezas generadas.
             </p>
-            <input type="submit" id="button" value="Leer Mas..." onclick="mostrarOscultar()">
+            <div class="col text-center">
+              <input type="submit" id="button" value="Leer Mas..." onclick="mostrarOscultar()">
+            </div>
+
             <p id="short">
               En consideración al entorno político económico actual, las proyecciones indican que la economía venezolana
               seguirá el camino de la recesión, no hay nada que indique lo contrario. El Gobierno Nacional, hasta los
@@ -129,15 +133,18 @@
             9.949 MM$
             <img class="mt-3" src="img/estadistica-one.png" alt="">
 
-            <input type="submit" id="buttons" value="Leer Mas..." onclick="mostrarOscultars()">
-            <p id="shorts">
+            <div class="col text-center mt-3">
+              <input type="submit" id="buttons" value="Leer Mas..." onclick="mostrarOscultars()">
+              <p id="shorts">
+                En ese mismo orden, el Producto Interno Bruto en Venezuela (PIB) creció 17,73% en el período
+                Enero-Septiembre de 2022, tal como se puede observar en el gráfico Nro 2 producto interno bruto, a
+                precios
+                constantes de 2007.
+                <img class="mt-3" src="img/Imagen2.png" alt="">
+              </p>
+            </div>
 
-              En ese mismo orden, el Producto Interno Bruto en Venezuela (PIB) creció 17,73% en el período
-              Enero-Septiembre de 2022, tal como se puede observar en el gráfico Nro 2 producto interno bruto, a precios
-              constantes de 2007.
 
-              <img class="mt-3" src="img/Imagen2.png" alt="">
-            </p>
           </div>
           <h3 class="title-economy-three text-center mt-3"> ENTORNO POLÍTICO . </h3>
           <div class="borde-economy-politico">
@@ -160,24 +167,28 @@
             de esta manera generar el equilibrio en la balanza de pagos. Es decir, entre los ingresos y los egresos
             nacionales.
             <br>
-            <input type="submit" id="but" value="Leer Mas..." onclick="showHide()">
-            <p id="three">
-
-              Ya que con esta mecanismo se podría incentivar la inversión extranjera, ya que en ese orden, Venezuela se
-              encuentra en el 188º puesto de los 190 que conforman el ranking Doing Business, que clasifica los países
-              según la facilidad que ofrecen para hacer negocios.
-              En cuanto al Índice de Percepción de la Corrupción del sector público en Venezuela ha sido de 14 puntos,
-              así pues, está entre los países con mayor corrupción en el sector público, de los 180 países analizados.
-              El presupuesto 2023 se estima en 11.565 millones de dólares ($), la discusión tal como lo establece la
-              Constitución de la República (1999) fue muy poco difundida y profundizada por los sectores de la sociedad
-              venezolana. Sin embargo, Delcy Rodríguez vicepresidente ejecutiva explico durante su intervención en la
-              sesión especial de la Asamblea Nacional para exponer el Presupuesto General de la Nación para el Ejercicio
-              Fiscal 2023, lo siguiente:
-              “El 77,1% del Presupuesto de la Nación está destinado a la inversión social de nuestro pueblo. Este
-              presupuesto debe servir para promover la producción nacional, garantizar el impulso de los consejos
-              comunales, las comunas, el fortalecimiento de la Gran Misión Vivienda Venezuela (GMVV), la educación, el
-              sistema de salud y la seguridad social”
-            </p>
+            <div class="col text-center">
+              <input type="submit" id="but" value="Leer Mas..." onclick="showHide()">
+              <p id="three">
+                Ya que con esta mecanismo se podría incentivar la inversión extranjera, ya que en ese orden, Venezuela
+                se
+                encuentra en el 188º puesto de los 190 que conforman el ranking Doing Business, que clasifica los países
+                según la facilidad que ofrecen para hacer negocios.
+                En cuanto al Índice de Percepción de la Corrupción del sector público en Venezuela ha sido de 14 puntos,
+                así pues, está entre los países con mayor corrupción en el sector público, de los 180 países analizados.
+                El presupuesto 2023 se estima en 11.565 millones de dólares ($), la discusión tal como lo establece la
+                Constitución de la República (1999) fue muy poco difundida y profundizada por los sectores de la
+                sociedad
+                venezolana. Sin embargo, Delcy Rodríguez vicepresidente ejecutiva explico durante su intervención en la
+                sesión especial de la Asamblea Nacional para exponer el Presupuesto General de la Nación para el
+                Ejercicio
+                Fiscal 2023, lo siguiente:
+                “El 77,1% del Presupuesto de la Nación está destinado a la inversión social de nuestro pueblo. Este
+                presupuesto debe servir para promover la producción nacional, garantizar el impulso de los consejos
+                comunales, las comunas, el fortalecimiento de la Gran Misión Vivienda Venezuela (GMVV), la educación, el
+                sistema de salud y la seguridad social”
+              </p>
+            </div>
           </div>
 
           <h3 class="title-economy-internacional text-center mt-3"> ENTORNO INTERNACIONAL . </h3>
@@ -368,7 +379,23 @@
         </div>
 
         <!-- card card -->
-        <div class="col-12 action col-md-6 col-lg-3 mt-1 mb-3">
+        <div class="col-12 action col-md-6 col-lg-6 mt-1 mb-3 mt-5">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <img src="img/publicidad.jpg" width="70px" height="70px" alt="publicidad">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 action col-md-6 col-lg-6 mt-1 mb-3 mt-5">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <img src="img/publicidad.two.jpg" alt="publicidad">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-12 action col-md-6 col-lg-6 mt-1 mb-3">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -379,43 +406,7 @@
               <a href="#" class="card-link">Another link</a>
             </div>
           </div>
-        </div>
-        <div class="col-12 action col-md-6 col-lg-3 mt-1 mb-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 action col-md-6 col-lg-3 mt-1 mb-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 action col-md-6 col-lg-3 mt-1 mb-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
